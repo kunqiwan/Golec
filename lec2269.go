@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	//i:="100"
@@ -8,8 +10,10 @@ func main() {
 	//fmt.Println(b)
 	//fmt.Println(reflect.TypeOf(b))
 	s :="ABCD"
+	//m :="CDEF"
 	fmt.Println(s[0])
-	fmt.Println(s[1])
+	//fmt.Println(math.Abs(float64(s[0] - m[0])))
+	fmt.Println('A'-'C')
 	fmt.Println('A')
 
 }
