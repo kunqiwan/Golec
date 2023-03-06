@@ -4,10 +4,7 @@ import (
 	"fmt"
 )
 
-func main() {
-	s := "abcsdsad"
-	fmt.Println(s)
-}
+
 func lengthOfLongestSubstring(s string) int {
 windows := make(map[string]int,len(s))
 left :=0

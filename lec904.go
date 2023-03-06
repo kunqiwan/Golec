@@ -2,10 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
- a :=[]int{0,1,2,2}
-	fmt.Println(totalFruit(a))
-}
+
 func totalFruit(fruits []int) int {
 	if len(fruits) == 0{
 		return 0

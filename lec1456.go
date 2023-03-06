@@ -1,8 +1,6 @@
 package main
 
-func main() {
 
-}
 func maxVowels(s string, k int) int {
 	left:=0
 	right:=0

@@ -4,9 +4,7 @@ import (
 	"unicode"
 )
 
-func main() {
 
-}
 func longestNiceSubstring(s string) (ans string) {
 	for i:= range s{
 		lower :=0

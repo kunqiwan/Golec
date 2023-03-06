@@ -2,10 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
-ex :=[]int{2,2,2,2,5,5,5,8}
-fmt.Println(numOfSubarrays(ex,3,4))
-}
+
 func numOfSubarrays(arr []int, k int, threshold int) int {
 	left :=0
 	right :=0

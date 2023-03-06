@@ -1,8 +1,6 @@
 package main
 
-func main() {
 
-}
 func checkIfPangram(sentence string) bool {
 letter :=[26]int{}
 for n:=0;n<len(sentence);n++{

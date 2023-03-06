@@ -4,9 +4,6 @@ import (
 	"sort"
 )
 
-func main() {
-
-}
 func sortPeople(names []string, heights []int) []string {
 length :=len(names)
 equal := make(map[int]string)

@@ -2,10 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
-	nums := []int{4,2,4,5,6}
-	fmt.Println(maximumUniqueSubarray(nums))
-}
+
 func maximumUniqueSubarray(nums []int) int {
 left:=0
 right:=0

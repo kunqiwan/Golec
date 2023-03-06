@@ -2,10 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
-	words := []string{"aabb","ab","ba"}
-	fmt.Println(similarPairs(words))
-}
+
 func similarPairs(words []string) int {
 	save := map[[26]int]int{}
 for n:=0;n<len(words);n++{

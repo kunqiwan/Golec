@@ -4,9 +4,7 @@ import (
 	"sort"
 )
 
-//func main() {
-// nums :=[]int{5,7,3,2,6,1}
-//}
+
 
 func specialArray(nums []int) int {
 	sort.Ints(nums)

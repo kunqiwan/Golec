@@ -2,11 +2,6 @@ package main
 
 import "fmt"
 
-func main() {
-	s := "baa"
-	p := "aa"
-	fmt.Println(findAnagrams(s,p))
-}
 
 func findAnagrams(s string, p string) []int {
 	needs := make(map[string]int,len(p))

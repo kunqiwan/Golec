@@ -1,8 +1,6 @@
 package main
 
-func main() {
 
-}
 func groupAnagrams(strs []string) [][]string {
 save :=map[[26]int][]string{}
 for n:=0;n<len(strs);n++{

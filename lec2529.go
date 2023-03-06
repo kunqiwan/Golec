@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 //For Loop Method
 
 //func maximumCount(nums []int) int {
@@ -21,11 +19,7 @@ import "fmt"
 //	return pos
 //}
 //}
-func main() {
-	nums :=[]int{-2,-1,-1,1,2,3}
-	fmt.Println(maximumCount(nums))
 
-}
 func maximumCount(nums []int) int {
 	nr:=neg(nums)
 	pr :=pos(nums)

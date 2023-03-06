@@ -1,8 +1,6 @@
 package main
 
-func main() {
 
-}
 //func majorityElement(nums []int) int {
 //length := len(nums)
 //req := length/2

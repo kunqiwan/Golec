@@ -1,8 +1,6 @@
 package main
 
-func main() {
 
-}
 func numJewelsInStones(jewels string, stones string) int {
 count:=0
 	save :=map[rune]struct{}{}

@@ -7,12 +7,7 @@ import "fmt"
 // 如果定义全局变量，只有前三种可以
 var f int = 900
 
-func main() {
-	ex1 := "A"
-	t := "AA"
-	res := minWindow(ex1, t)
-	fmt.Println(res)
-}
+
 
 func minWindow(s string, t string) string {
 	//循环t，得到需要的字符个数

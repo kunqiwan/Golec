@@ -1,12 +1,5 @@
 package main
 
-import "fmt"
-
-func main() {
-	s1 := "ab"
-	s2 := "eidbdaooo"
-	fmt.Println(checkInclusion(s1,s2))
-}
 
 func checkInclusion(s1 string, s2 string) bool {
  needs :=make(map[string]int,len(s1))

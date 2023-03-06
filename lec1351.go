@@ -1,8 +1,6 @@
 package main
 
-func main() {
 
-}
 func countNegatives(grid [][]int) int {
 	count :=0
 for m:=0;m<len(grid);m++{

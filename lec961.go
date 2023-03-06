@@ -1,8 +1,6 @@
 package main
 
-func main() {
 
-}
 func repeatedNTimes(nums []int) int {
 require := len(nums)/2
 save :=make(map[int]int)

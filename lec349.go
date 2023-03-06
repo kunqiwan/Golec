@@ -1,8 +1,6 @@
 package main
 
-func main() {
 
-}
 func intersection(nums1 []int, nums2 []int) []int {
 save :=make(map[int]int,len(nums1))
 check :=make(map[int]int,len(nums1))

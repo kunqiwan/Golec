@@ -1,8 +1,6 @@
 package main
 
-func main() {
 
-}
 func arithmeticTriplets(nums []int, diff int) int {
 save :=map[int]struct{}{}
 count :=0

@@ -1,8 +1,6 @@
 package main
 
-func main() {
 
-}
 func numberOfSubarrays(nums []int, k int) int {
 	left :=0
 	right:=0

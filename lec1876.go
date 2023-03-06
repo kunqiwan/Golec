@@ -1,11 +1,6 @@
 package main
 
-import "fmt"
 
-func main() {
-	s := "aababcabc"
-	fmt.Println(countGoodSubstrings(s))
-}
 
 func countGoodSubstrings(s string) int {
 left :=0

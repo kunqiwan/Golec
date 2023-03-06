@@ -2,11 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
-	a := "TTFTTFTT"
-	b := 1
-	maxConsecutiveAnswers(a,b)
-}
+
 func maxConsecutiveAnswers(answerKey string, k int) int {
 
 	targetT := singleChar(answerKey,k,"T")

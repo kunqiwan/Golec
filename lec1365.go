@@ -1,8 +1,6 @@
 package main
 
-func main() {
 
-}
 func smallerNumbersThanCurrent(nums []int) []int {
 frequ :=[101]int{}
 for n:=0;n<len(nums);n++{

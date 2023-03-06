@@ -1,12 +1,6 @@
 package main
 
-import "fmt"
 
-func main() {
-	nums := []int{1,2,5,2,3}
-	target := 2
-	fmt.Println(targetIndices(nums,target))
-}
 func targetIndices(nums []int, target int) []int {
 	count :=0
 	pos:= 0

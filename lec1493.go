@@ -1,8 +1,6 @@
 package main
 
-func main() {
 
-}
 func longestSubarray(nums []int) int {
 left :=0
 right :=0

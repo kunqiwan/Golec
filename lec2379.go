@@ -1,9 +1,5 @@
 package main
 
-func main() {
-//需要规定窗口数量为K，检查其中最少的W数量
-
-}
 
 func minimumRecolors(blocks string, k int) int {
 	//go语言，string不需要转为array就可以调用

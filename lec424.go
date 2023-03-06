@@ -1,12 +1,6 @@
 package main
 
-import "fmt"
 
-func main() {
-	s := "AABABBA"
-	k := 1
-	fmt.Println(characterReplacement(s,k))
-}
 func characterReplacement(s string, k int) int {
 //本题的窗口大小不能按照固定长度的思路，而是要让它一直满足k值可以填充整个窗口中的非最大字符值的条件
 	right:=0

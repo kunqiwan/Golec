@@ -1,8 +1,6 @@
 package main
 
-func main() {
 
-}
 func countConsistentStrings(allowed string, words []string) int {
 count :=0
 allow :=map[rune]struct{}{}

@@ -1,12 +1,6 @@
 package main
 
-import "fmt"
 
-func main() {
-	nums := []int{1, 2, 3,1}
-	k := 4
-	fmt.Println(containsNearbyDuplicate(nums,k))
-}
 func containsNearbyDuplicate(nums []int, k int) bool {
 	//left :=0
 	right :=0

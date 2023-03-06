@@ -2,9 +2,7 @@ package main
 
 import "math"
 
-func main() {
 
-}
 func equalSubstring(s string, t string, maxCost int) int {
 	left:=0
 	right:=0

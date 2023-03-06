@@ -1,8 +1,6 @@
 package main
 
-func main() {
 
-}
 func isAnagram(s string, t string) bool {
 s1 :=occ(s)
 t1 :=occ(t)
