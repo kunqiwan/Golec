@@ -1,14 +1,9 @@
 package main
 
 import (
-	"fmt"
 	"math"
 )
 
-func main() {
-	words := []string{"bella","label","roller"}
-	fmt.Println(commonChars(words))
-}
 func commonChars(words []string) (ans []string) {
 	minFreq := [26]int{}
 	for i := range minFreq {
